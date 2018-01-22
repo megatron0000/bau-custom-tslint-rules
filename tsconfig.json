@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": ["es2015", "dom"],
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noUnusedLocals": true,
+        "outDir": "./build",
+        "preserveSymlinks": true,
+        "types": [],
+        "baseUrl": "./",
+        "paths": {
+            "*": ["node_modules/@types/*"]
+        }
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules/", "assets/", "bau-analyse/"]
+}
